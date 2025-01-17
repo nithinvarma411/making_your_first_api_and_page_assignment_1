@@ -48,6 +48,8 @@ app.get('/assistant/greet', (req, res) => {
 
   let dayMessage;
   switch (currentDay) {
+
+    
       case "Monday":
           dayMessage = "Happy Monday! Start your week with energy!";
           break;
@@ -59,6 +61,8 @@ app.get('/assistant/greet', (req, res) => {
   }
 
   res.json({
+
+
       welcomeMessage: `Hello, ${name}! Welcome to our assistant app!`,
       dayMessage: dayMessag
   });
