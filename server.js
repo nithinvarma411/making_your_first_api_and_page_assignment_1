@@ -60,7 +60,7 @@ app.get('/assistant/greet', (req, res) => {
 
   res.json({
       welcomeMessage: `Hello, ${name}! Welcome to our assistant app!`,
-      dayMessage: dayMessage
+      dayMessage: dayMessag
   });
 });
 
